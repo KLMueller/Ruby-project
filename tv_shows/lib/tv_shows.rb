@@ -2,6 +2,7 @@
 
 require_relative "tv_shows/version"
 require_relative "cli.rb"
+require_relative "scraper.rb"
 
 module TvShows
   class Error < StandardError; end
