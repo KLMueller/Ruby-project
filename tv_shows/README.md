@@ -1,5 +1,13 @@
 # TvShows
 
+Enter project name: tv_shows
+
+Add project summary: collection of favorite shows.
+
+TODO: CLI Feature 1
+TODO: CLI Feature 2
+TODO: CLI Feature 3
+
 TODO: Delete this and the text below, and describe your gem
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/tv_shows`. To experiment with that code, run `bin/console` for an interactive prompt.
