@@ -5,7 +5,9 @@ Enter project name: tv_shows
 Add project summary: collection of favorite shows.
 
 TODO: CLI Feature 1
+
 TODO: CLI Feature 2
+
 TODO: CLI Feature 3
 
 TODO: Delete this and the text below, and describe your gem
