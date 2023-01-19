@@ -1,5 +1,5 @@
-#require 'nokogiri'
-#require 'open-uri'
+require 'nokogiri'
+require 'open-uri'
 # Parse payload to hash
 #require 'json'
 class Scraper
@@ -10,10 +10,10 @@ class Scraper
     # To parse the payload, be sure to use nokogiri to parse this into url. We can use text to receive the json object. Use JSON.parse to do just this by passing in doc.text as an argument
     doc = Nokogiri::HTML(URI.open("#{URL}#{year}"))
     scraped_shows = JSON.parse(doc.text)
-
-      # print each show
-      scraped_shows.each do |show|
-        puts "| #{show["title"]} | #{show["year"]} | #{show["nominations"]} | #{show["best_picture"]}"
-      end
+    
+    # print each show
+    scraped_shows.each do |show|
+      puts "| #{show["title"]} | #{show["year"]}"
     end
+  end
 end
