@@ -36,6 +36,7 @@ Gem::Specification.new do |spec|
   gem "rake", "~> 13.0"
   gem 'nokogiri'
   gem 'open-uri'
+  gem 'BCrypt'
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
 end
