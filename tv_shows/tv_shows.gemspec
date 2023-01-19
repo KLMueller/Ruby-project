@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+ spec.metadata["allowed_push_host"] = ""
 
   #spec.metadata["homepage_uri"] = spec.homepage
   #spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
@@ -33,7 +33,9 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
-
+  gem "rake", "~> 13.0"
+  gem 'nokogiri'
+  gem 'open-uri'
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
 end

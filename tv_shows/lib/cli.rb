@@ -4,7 +4,8 @@ class CLI
     menu
   end
 end
-  def menu
+  
+def menu
     user_input = ""
     
     while user_input != "exit"  
